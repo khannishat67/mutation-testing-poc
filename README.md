@@ -3,6 +3,7 @@ Simple POC to implement Mutation testing on a Maven project.
 - Run ```mvn clean install``` to run the JUnit Tests.
 - Run ```mvn org.pitest:pitest-maven:mutationCoverage``` for PITest Mutation coverage
 
+PITest coverage results will be available in ```target/pit-reports```
 ## Dependencies and Plugins
 ### JUnit 5
 ```xml
